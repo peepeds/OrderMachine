@@ -23,6 +23,7 @@ public class CompletedState extends State {
     @Override
     public void completeOrder() {
         System.out.println("Pesanan sudah selesai.");
+        order.setState(order.getPaidState());
     }
 
     @Override
@@ -33,6 +34,5 @@ public class CompletedState extends State {
     @Override
     public void payOrder() {
         System.out.println("Pembayaran hanya dapat dilakukan setelah pesanan yang sudah selesai.");
-        order.setState(order.getPaidState());
     }
 }

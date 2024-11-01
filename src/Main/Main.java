@@ -2,21 +2,43 @@ package Main;
 
 public class Main {
     public static void main(String[] args) {
-        Order order = new Order();
+        System.out.println("\nNormal Case");
+        normalCase();
+        System.out.println("\nCancel Case");
+        cancelCase();
+        System.out.println("\nWrong Case");
+        wrongCase1();
+        System.out.println("\nWrong Case");
+        wrongCase2();
 
-        order.placeOrder();
 
-        order.processOrder();
-        order.payOrder();
-        order.shipOrder();
-//        order.payOrder();
-
-        order.completeOrder();
-
-        order.payOrder();
-
-//        order.cancelOrder();
-//
-//        order.placeOrder();
     }
+    static void normalCase(){
+        Order order = new Order();
+        order.placeOrder();
+        order.processOrder();
+        order.shipOrder();
+        order.completeOrder();
+        order.payOrder();
+    }
+    static void cancelCase(){
+        Order order = new Order();
+        order.placeOrder();
+        order.cancelOrder();
+    }
+
+    static void wrongCase1(){
+        Order order = new Order();
+        order.shipOrder();
+        order.placeOrder();
+        order.completeOrder();
+    }
+
+    static void wrongCase2(){
+        Order order = new Order();
+        order.placeOrder();
+        order.payOrder();
+    }
+
 }
+

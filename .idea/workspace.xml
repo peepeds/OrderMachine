@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9419ade-e2d5-463f-afb9-3471007ac446" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/CancelledState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/CompletedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/OrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/PaidState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/PendingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/ProcessingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/CompletedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/CompletedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/PendingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/PendingState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2oDXTu0Kl4nOx8YzvDfsH2Az700" />
@@ -46,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RunManager">
@@ -59,6 +53,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
