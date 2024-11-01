@@ -35,6 +35,6 @@ public class PendingState extends State {
 
     @Override
     public void payOrder() {
-        System.out.println("Pembayaran tidak dapat dilakukan saat pesanan belum diproses.");
+        System.out.println("Pembayaran tidak dapat dilakukan saat pesanan belum selesai diproses.");
     }
 }
